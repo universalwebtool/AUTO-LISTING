@@ -28,16 +28,17 @@ This extension does **not collect or store personally identifiable information**
 
 The extension processes limited data from supported websites (eBay and AliExpress), including:
 
-- Product titles  
-- Product images  
-- Prices  
-- Descriptions  
+- Product titles
+- Product images
+- Prices
+- Descriptions
 - Variants (size, color, etc.)
 
 This data is used solely to:
-- Enable product import  
-- Assist with listing creation  
-- Provide filtering and research tools  
+
+- Enable product import
+- Assist with listing creation
+- Provide filtering and research tools
 
 All processing occurs **locally within the user's browser**.
 
@@ -47,9 +48,9 @@ All processing occurs **locally within the user's browser**.
 
 The extension may store the following locally using browser storage:
 
-- User preferences  
-- Filter settings  
-- Temporary product data  
+- User preferences
+- Filter settings
+- Temporary product data
 - Scraping progress (for resume functionality)
 
 No data is stored on external servers.
@@ -64,12 +65,10 @@ We do **not sell, transfer, or share user data** with any third parties.
 
 ## 6. Permissions Usage
 
-The extension requests permissions only to support its core functionality:
+The extension requests only the permissions required for its core functionality:
 
-- **activeTab:** To interact with the current page when the user initiates an action  
-- **storage:** To save user preferences and temporary data  
-- **scripting:** To extract product data from supported websites  
-- **Host permissions:** To access eBay and AliExpress pages when activated by the user  
+- **storage:** To save user preferences and temporary product data locally within the browser
+- **Host permissions (eBay & AliExpress):** To read product data from supported pages when explicitly activated by the user
 
 The extension does **not access any unrelated websites**.
 
@@ -77,7 +76,7 @@ The extension does **not access any unrelated websites**.
 
 ## 7. Security
 
-All data processing is performed locally.  
+All data processing is performed locally within the browser.
 No sensitive or personal data is transmitted outside the browser.
 
 ---
@@ -86,9 +85,9 @@ No sensitive or personal data is transmitted outside the browser.
 
 Users have full control over the extension and can:
 
-- Enable or disable it at any time  
-- Remove it from their browser  
-- Clear stored data via browser settings  
+- Enable or disable it at any time
+- Remove it from their browser
+- Clear stored data using the Reset Data button in the extension popup, or via browser settings
 
 ---
 
@@ -100,6 +99,5 @@ This Privacy Policy may be updated from time to time. Any updates will be reflec
 
 ## 10. Contact
 
-For any questions or concerns regarding this policy, please contact:
-
-**Email:** your@email.com
+For any questions or concerns regarding this policy, please open an issue at:
+[https://github.com/universalwebtool/AUTO-LISTING/issues](https://github.com/universalwebtool/AUTO-LISTING/issues)
