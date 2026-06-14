@@ -1,103 +1,70 @@
-# Privacy Policy
+# DropOps Privacy Policy
 
-**Last updated:** April 2026
+Last Updated: June 2026
 
-This Chrome Extension is designed to help eBay sellers automate product research and listing processes.
+DropOps ("the Extension") is designed to help eBay sellers manage listings, orders, stock updates, and seller workflows directly within their browser.
 
----
+## Information Collection
 
-## 1. Overview
+DropOps does not sell, rent, or share personal information with third parties.
 
-This extension allows users to import product data from eBay and AliExpress, apply filters, and create listings on eBay. The extension operates entirely within the user's browser and is built to improve efficiency and reduce manual work.
+The extension operates primarily within the user's browser and only accesses data required to provide its functionality.
 
----
+The extension may access:
 
-## 2. Data Collection
+* eBay pages opened by the user
+* AliExpress product pages opened by the user
+* Listing information such as titles, prices, images, variations, and descriptions
+* Order information necessary for seller workflows
 
-This extension does **not collect or store personally identifiable information**, including:
+## Browser Permissions
 
-- Name
-- Email address
-- Phone number
-- Payment or financial data
-- Login credentials
+### activeTab
 
----
+Used to interact with the currently active eBay or AliExpress page after user initiation.
 
-## 3. Data Usage
+### scripting
 
-The extension processes limited data from supported websites (eBay and AliExpress), including:
+Used to extract listing information and automate seller workflows on supported websites.
 
-- Product titles
-- Product images
-- Prices
-- Descriptions
-- Variants (size, color, etc.)
+### tabs
 
-This data is used solely to:
+Used to open, update, and manage supported eBay and AliExpress pages.
 
-- Enable product import
-- Assist with listing creation
-- Provide filtering and research tools
+### sidePanel
 
-All processing occurs **locally within the user's browser**.
+Used to provide a persistent seller workspace for orders, listings, analytics, and stock management.
 
----
+### notifications
 
-## 4. Data Storage
+Used to display notifications about completed actions, stock updates, imports, and errors.
 
-The extension may store the following locally using browser storage:
+## Data Storage
 
-- User preferences
-- Filter settings
-- Temporary product data
-- Scraping progress (for resume functionality)
+Settings and user preferences may be stored locally in the browser using Chrome storage APIs.
 
-No data is stored on external servers.
+No personal data is transmitted to external servers unless explicitly initiated by the user.
 
----
+## Third-Party Services
 
-## 5. Data Sharing
+DropOps may interact with official eBay services and APIs when authorized by the user.
 
-We do **not sell, transfer, or share user data** with any third parties.
+The extension is not affiliated with or endorsed by eBay Inc. or AliExpress.
 
----
+## Data Sharing
 
-## 6. Permissions Usage
+DropOps does not sell user data.
 
-The extension requests only the permissions required for its core functionality:
+User data is not used for advertising purposes.
 
-- **storage:** To save user preferences and temporary product data locally within the browser
-- **Host permissions (eBay & AliExpress):** To read product data from supported pages when explicitly activated by the user
+User data is not transferred to third parties except when necessary to provide requested functionality.
 
-The extension does **not access any unrelated websites**.
+## Security
 
----
+We take reasonable measures to protect user information and minimize data collection.
 
-## 7. Security
+## Contact
 
-All data processing is performed locally within the browser.
-No sensitive or personal data is transmitted outside the browser.
+For privacy-related questions, contact:
 
----
-
-## 8. User Control
-
-Users have full control over the extension and can:
-
-- Enable or disable it at any time
-- Remove it from their browser
-- Clear stored data using the Reset Data button in the extension popup, or via browser settings
-
----
-
-## 9. Changes to This Policy
-
-This Privacy Policy may be updated from time to time. Any updates will be reflected on this page with a revised date.
-
----
-
-## 10. Contact
-
-For any questions or concerns regarding this policy, please open an issue at:
-[https://github.com/universalwebtool/AUTO-LISTING/issues](https://github.com/universalwebtool/AUTO-LISTING/issues)
+[munawarakram@gmail.com](mailto:munawarakram@gmail.com)
